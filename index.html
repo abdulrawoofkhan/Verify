@@ -2,6 +2,11 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="script.js">
+  
+  // @import url('https://requirejs.org/docs/release/2.3.5/minified/require.js');
+</script>
+<script data-main="js/app.js" src="js/require.js"></script>
 <style>
 @import url('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,800');
@@ -170,25 +175,25 @@ html, body {
 
 <div class='split-pane col-xs-12 col-sm-6 uiux-side'>
         <div>
-          <img src='https://bit.ly/BCR-design'>
+          <img src='store.png'>
           <div class='text-content'>
             <div class="bold">Retailer</div>
             <div class='big'>Registration</div>
           </div>
-          <a class='button' href="http://localhost:8080/createRetailer">
+          <a class='button' href="createRetailer.html" >
             REGISTER
           </a>
         </div>
       </div>
 
-<div class='split-pane col-xs-12 col-sm-6 frontend-side'>
+  <div class='split-pane col-xs-12 col-sm-6 frontend-side'>
         <div>
-          <img src='https://bit.ly/bcr-dev'>
+          <img src='code.jpg'>
           <div class='text-content'>
             <div class="bold">Generate</div>
             <div class='big'>QR Code</div>
           </div>
-          <a class='button' href="http://localhost:8080/createCodes">
+          <a class='button' href="createQRCodes.html">
             GENERATE
           </a>
         </div>
