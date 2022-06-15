@@ -44,7 +44,7 @@ const updateQrnat = () => {
   });
 };
 const updateQrblank = () => {
-  newQrData = "Brand Name: "+qrData.value+"   \n"+"Model: "+qrLastname.value+"   \n"+"Description: "+qrdob.value+"   \n"+"Manufacturer Name: "+qrnat.value+"   \n"+"Manufacturer Location: "+qrblank.value;
+  newQrData = "Brand Name: "+qrData.value+"  \n"+" | Model: "+qrLastname.value+"  \n"+" | Blockchain Link: https://bit.ly/3aZk2ZG | Description: "+qrdob.value+"   \n"+" | Retailer Name: "+qrnat.value+"  \n"+" | Retailer Location: "+qrblank.value;
   qrCode.update({
     data: newQrData
   });
